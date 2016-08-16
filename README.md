@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Enterpriseape
+==============
 
-Things you may want to cover:
+Powerful software
+==================
 
-* Ruby version
+### Welcome to the repository
 
-* System dependencies
+Feel free to acces [ my portfolio](https://hansvanoverbeek.github.io/photoblog).
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+>## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a enim porta, tempus diam sed, sollicitudin nibh.
+>
+>Maecenas viverra vestibulum tortor non posuere. Sed ligula quam, venenatis in gravida et, vulputate ut arcu. Nullam justo sem, bibendum at elit vitae, feugiat facilisis justo. Nullam ac ornare arcu. Suspendisse potenti. Suspendisse non mi ac erat vulputate rhoncus ut vitae elit. Sed felis erat, vehicula nec urna sed, malesuada varius urna.
