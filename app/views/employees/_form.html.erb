@@ -1,3 +1,4 @@
+<div class="row container">
 <%= form_for(employee) do |f| %>
   <% if employee.errors.any? %>
     <div id="error_explanation">
@@ -11,22 +12,24 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :name %>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :phone %>
-    <%= f.text_field :phone %>
+    <%= f.text_field :phone, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :job_type %>
-    <%= f.text_field :job_type %>
+    <%= f.text_field :job_type, class: "form-control" %>
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", class: 'btn btn-primary' %>
   </div>
 <% end %>
+
+</div>

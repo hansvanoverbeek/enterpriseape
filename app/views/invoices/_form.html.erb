@@ -1,4 +1,4 @@
-<div class="row conntainer">
+<div class="row container">
 
   <%= form_for(invoice) do |f| %>
     <% if invoice.errors.any? %>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="form-group">
-        <%= f.label :salesperson, class: 'control-label' %>
+        <%= f.label :employee_id, class: 'control-label' %>
         <div class="controls">
           <%= collection_select( :invoice, :employee_id, Employee.all, :id, :name, {}, { :multiple => false }) %>
         </div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="actions">
-      <%= f.submit %>
+      <%= f.submit "Submit", class: 'btn btn-primary' %>
     </div>
   <% end %>
 </div>
