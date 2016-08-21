@@ -1,3 +1,3 @@
 class Invoice < ApplicationRecord
-  belongs_to :salesperson
+  belongs_to :employee
 end
